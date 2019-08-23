@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Words_classes
 {
-    class DeclinObject
+    class DeclinObjectRus
     {
-        public DeclinObject()
+        public DeclinObjectRus()
         {
             ;
         }

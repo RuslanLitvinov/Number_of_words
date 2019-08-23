@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Words_classes
 {
-    class ThousandDecline: DeclinObject
+    class ThousandDecline: DeclinObjectRus
     {
         public override string GetOneName(char cases)
         {

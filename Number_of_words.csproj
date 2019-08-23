@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeclinObject.cs" />
-    <Compile Include="MilliardDecline.cs" />
-    <Compile Include="MillionDecline.cs" />
+    <Compile Include="DeclinObjectRus.cs" />
+    <Compile Include="IInputNumber.cs" />
+    <Compile Include="InputNumber.cs" />
+    <Compile Include="INumberLinguist.cs" />
+    <Compile Include="MilliardDeclineRus.cs" />
+    <Compile Include="MillionDeclineRus.cs" />
+    <Compile Include="NumberLinguistRus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThousandDecline.cs" />

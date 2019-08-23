@@ -49,7 +49,7 @@ namespace Words_classes
                 gender = Console.ReadLine().ToUpper();
                 try
                 {
-                    Words.ValidateGender(gender[0]);
+                    Words.ValidateGender(gender[0]);   // Это лингвистические понятия конкретного языка, значит должны быть в классе вместе с названиями разрядов
                     return char.ToUpper(gender[0]);     // !!!
                 }
                 catch (InvalidOperationException e)
